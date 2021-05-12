@@ -1,7 +1,7 @@
 <?php
 
 
-class WarriorUnit implements Unit
+class WarriorUnit implements UnitInterface
 {
 
     public function introduceYourself()

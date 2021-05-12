@@ -1,7 +1,7 @@
 <?php
 include "WarriorUnit.php";
 
-class WarriorUnitFactory implements UnitFactory
+class WarriorUnitFactory implements UnitFactoryInterface
 {
 
     public function createUnit()

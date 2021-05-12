@@ -1,8 +1,8 @@
 <?php
-include 'UnitFactory.php';
+include 'UnitFactoryInterface.php';
 include 'ScoutUnit.php';
 
-class ScoutUnitFactory implements UnitFactory
+class ScoutUnitFactory implements UnitFactoryInterface
 {
 
     public function createUnit()

@@ -1,7 +1,7 @@
 <?php
 
 
-interface Unit
+interface UnitInterface
 {
     public function introduceYourself();
 }

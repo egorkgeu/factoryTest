@@ -2,6 +2,6 @@
 include 'utils.php';
 
 
-$unitFactory = createUnitBySpeciality(2);
+$unitFactory = createUnitBySpeciality(0);
 $unit = $unitFactory->createUnit();
 $unit->introduceYourself();

@@ -1,7 +1,7 @@
 <?php
-include 'Unit.php';
+include 'UnitInterface.php';
 
-class ScoutUnit implements Unit
+class ScoutUnit implements UnitInterface
 {
 
     public function introduceYourself()

@@ -1,7 +1,7 @@
 <?php
 
 
-class WorkerUnit implements Unit
+class WorkerUnit implements UnitInterface
 {
 
     public function introduceYourself()

@@ -1,7 +1,7 @@
 <?php
 
 
-interface UnitFactory
+interface UnitFactoryInterface
 {
     public function createUnit();
 }
