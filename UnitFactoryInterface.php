@@ -1,7 +1,6 @@
 <?php
 
-
 interface UnitFactoryInterface
 {
-    public function createUnit();
+    public function createUnit():UnitInterface;
 }
