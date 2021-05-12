@@ -1,7 +1,7 @@
 <?php
-include 'ScoutUnitFactory.php';
-include 'WarriorUnitFactory.php';
-include 'WorkerUnitFactory.php';
+include 'UnitFactories/ScoutUnitFactory.php';
+include 'UnitFactories/WarriorUnitFactory.php';
+include 'UnitFactories/WorkerUnitFactory.php';
 
 function createUnitBySpeciality($speciality)
 {

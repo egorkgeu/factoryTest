@@ -1,5 +1,5 @@
 <?php
-include 'WorkerUnit.php';
+include 'Units/WorkerUnit.php';
 
 class WorkerUnitFactory implements UnitFactoryInterface
 {

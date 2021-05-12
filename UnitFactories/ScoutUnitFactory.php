@@ -1,6 +1,6 @@
 <?php
 include 'UnitFactoryInterface.php';
-include 'ScoutUnit.php';
+include 'Units/ScoutUnit.php';
 
 class ScoutUnitFactory implements UnitFactoryInterface
 {
